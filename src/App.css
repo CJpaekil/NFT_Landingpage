@@ -1,0 +1,38 @@
+
+@font-face {
+  font-family: Rajdhani;
+  src: url('./assets/fonts/Rajdhani-Regular.ttf');
+}
+
+
+.App {
+    font-family: Rajdhani;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+
+}
+
+@keyframes fontname {
+  
+}
+
+.border-gradient {
+  border: 6px solid;
+  border-image-slice: 1;
+  border-width: 3px;
+}
+
+.border-gradient-purple {
+  border-image-source: linear-gradient(to bottom, #743ad5, #d53a9d);
+}
+.border-gradient-green {
+  border-image-source: linear-gradient(to left, #00C853, #B2FF59);
+}
+
+.MuiPaper-root {
+  background-color: #222435 !important;
+}
+.slick-active > a {
+  background-color: #6BC909 !important;
+}
